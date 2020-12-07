@@ -31,7 +31,7 @@ pip install -r requirements.txt
 cd backend
 
 python3 manage.py migrate
-python3 manage.py tests
+python3 manage.py test
 python3 manage.py runserver
 ```
 
